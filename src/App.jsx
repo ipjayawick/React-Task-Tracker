@@ -24,10 +24,9 @@ function App() {
   }
   
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="sm" style={{marginLeft:'0px', marginTop:'40px'}}>
       <Box border="1px solid #000"
         borderRadius="5px"
-        width="50vw"
         padding="20px">
         <Header setOnAdd={()=>{setShowAddTask(!showAddTask)}} showAdd={showAddTask}/>
         {showAddTask && <AddTask onSubmit={addTask}/>}

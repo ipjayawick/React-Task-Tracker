@@ -11,7 +11,7 @@ const Task = ({ task,onDelete,onToggle }) => {
                 </IconButton>
             </Typography>
             <Typography marginBottom="10px">
-                {task.text}
+                {task.day}
             </Typography>
         </div>
     )
